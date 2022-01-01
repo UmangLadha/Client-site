@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  /* color: darkgray; */
+}
+.logo{
+  align-items: center;
+  width: 30%;
+}
+.list-inline {
+  display: inline-block;
+  padding: 0rem 1rem;
+}
+.list-non-bullet {
+  list-style:square;
+  text-align: center;
+}
