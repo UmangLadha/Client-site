@@ -5,55 +5,48 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div>
         <div className="header"><img className="logo" src={logo} alt="logo"/></div>
         {/* <div class="nav-brand"><img src={logo} alt="logo"/></div> */}
-        <div>
+
+    <div className="slider">
+
         <Carousel variant="dark">
-  <Carousel.Item>
-    <img
-      className=" w-100 "
-      src={logo}
-      alt="First slide"
-    />
-    {/* <Carousel.Caption>
-      <h5>First slide label</h5>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption> */}
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={logo}
-      alt="Second slide"
-    />
-    {/* <Carousel.Caption>
-      <h5>Second slide label</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption> */}
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 "
-      src={logo}
-      alt="Third slide"
-    />
-    {/* <Carousel.Caption>
-      <h5>Third slide label</h5>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption> */}
-  </Carousel.Item>
-</Carousel>
-        </div>
-           <div>
+      <Carousel.Item>
+        <img
+          className=" w-100 slider-img "
+          src={logo}
+          alt="First slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={logo}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100 "
+          src={logo}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+     </Carousel>
+    </div>
+           <div className="navigation">
+           <div class="nav-brand"><img src={logo} alt="logo"/></div>
             <ul className="list-non-bullet list">
-                <li className="list-inline"> SERVICE |</li>
-                <li className="list-inline">| CLIENT |</li>
-                <li className="list-inline">| REVIEW |</li>
-                <li className="list-inline">| GALLERY |</li>
-                <li className="list-inline">| ABOUT US |</li>
-                <li className="list-inline">| CONTACT </li>
+                <li className="list-inline"> <a href="http:#">SERVICE </a> |</li>
+                <li className="list-inline"><a href="http:#"> CLIENT </a> |</li>
+                <li className="list-inline"><a href="http:#"> REVIEW </a> |</li>
+                <li className="list-inline"><a href="http:#"> GALLERY </a> |</li>
+                <li className="list-inline"><a href="http:#"> ABOUT US </a> |</li>
+                <li className="list-inline"><a href="#contact"> CONTACT </a></li>
             </ul> 
            </div>  
       </div>      
