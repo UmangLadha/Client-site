@@ -55,6 +55,19 @@
   padding: 2rem;
 }
 
+/* Services Part */
+.details{
+  padding: 4rem;
+  border: 1px solid darkgray;
+}
+
+.title{
+  font-size: larger;
+  padding: 1rem;
+  width: 350px;
+  height: 350px;
+}
+
 /* Footer Part */
 .footer{
   display: block;

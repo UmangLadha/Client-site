@@ -1,0 +1,12 @@
+.box{
+    display: flex;
+    flex-direction :row ;
+    justify-content :baseline;
+    flex-flow : wrap;
+}
+.title{
+    color: darkgray;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1rem;
+}
