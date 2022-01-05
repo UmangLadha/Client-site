@@ -5,7 +5,6 @@ import Services from './components/Services.js';
 import Clients from './components/Clients.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
-// import Carousel from 'react-bootstrap/Carousel';
 
 function App() {
   return (
