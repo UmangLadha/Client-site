@@ -1,10 +1,10 @@
-import React from 'react';
-import '../App.css';
-import Figure from 'react-bootstrap/Figure';
-import logo from '../images/logo.jpg';
+import React from "react";
+import "../App.css";
+import Figure from "react-bootstrap/Figure";
+import logo from "../images/logo.jpg";
 
 
-function services(props) {
+function services() {
     return (
         <Figure className='details'>
             <Figure.Image
