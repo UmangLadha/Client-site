@@ -24,7 +24,7 @@ function App() {
         </nav>
 
       </div>
-      <Services/>
+      <Services />
       <Clients />
       <About />
       <Contact />

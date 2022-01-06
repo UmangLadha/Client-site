@@ -4,7 +4,7 @@ import Figure from 'react-bootstrap/Figure';
 import logo from '../images/logo.jpg';
 
 
-function services() {
+function services(props) {
     return (
         <Figure className='details'>
             <Figure.Image
