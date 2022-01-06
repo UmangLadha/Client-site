@@ -1,10 +1,10 @@
 import './App.css';
 import logo from './images/logo.jpg';
-import Slider from './components/Slider.js';
-import Services from './components/Services.js';
-import Clients from './components/Clients.js';
-import About from './components/About.js';
-import Contact from './components/Contact.js';
+import Slider from './components/Slider';
+import Services from './components/Services';
+import Clients from './components/Clients';
+import About from './components/about';
+import Contact from './components/contact';
 
 function App() {
   return (
