@@ -3,11 +3,11 @@ import "../App.css";
 
 function Contact() {
     return (
-        <div> 
+        <div id="Contact-part"> 
             <footer className="footer">
-                <h1>CONTACT</h1>
+                <h1 className="heading">CONTACT</h1>
                 <div className="cards">
-                    <div className="card">
+                    <div className="footer-div">
                         <p>49,shankar colony</p>
                         <p>jaipur, Rajasthan,302039</p>
                         <span>_____</span>
@@ -18,17 +18,14 @@ function Contact() {
                             <li className="list-inline"><a className="toplinks" href="http//:#"><i className="fa fa facebook">F</i></a></li>
                             <li className="list-inline"><a className="toplinks" href="http//:#"><i className="fa fa gmail">G</i></a></li>
                         </ul>
-
                     </div>
-
-                    <div className="card">
+                    <div className="footer-div">
                         <p>Opening hours</p>
                         <span>_____</span>
                         <p>Mon-Fri: 9AM-8PM</p>
                         <p>Saturday: 9AM-7PM</p>
                         <p>Sunday: 10AM-6PM</p>
                     </div>
-
                 </div>
             </footer>
         </div>
