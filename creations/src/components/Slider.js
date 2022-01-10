@@ -6,7 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 function slider() {
     return (
         <div>
-            <Carousel>
+            <Carousel className="slider">
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"
@@ -45,4 +45,4 @@ function slider() {
     )
 }
 
-export default slider
+export default slider;

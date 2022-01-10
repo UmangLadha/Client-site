@@ -6,32 +6,35 @@ import logo from "../images/logo.jpg";
 
 function services() {
     return (
-        <Figure className='details'>
-            <Figure.Image
-                width={350}
-                height={350}
-                alt="200x200"
-                src={logo}
-            />
-            <Figure.Image
-                width={350}
-                height={350}
-                alt="171x180"
-                src={logo}
-            />
-            <Figure.Image
-                width={350}
-                height={350}
-                alt="171x180"
-                src={logo}
-            />
-            <Figure.Image
-                width={350}
-                height={350}
-                alt="171x180"
-                src={logo}
-            />
-        </Figure>
+        <div  id="#Service-part">
+            <h1 className="heading">SERVICES</h1>
+            <Figure className='details'>
+                <Figure.Image
+                    width={350}
+                    height={350}
+                    alt="200x200"
+                    src={logo}
+                />
+                <Figure.Image
+                    width={350}
+                    height={350}
+                    alt="171x180"
+                    src={logo}
+                />
+                <Figure.Image
+                    width={350}
+                    height={350}
+                    alt="171x180"
+                    src={logo}
+                />
+                <Figure.Image
+                    width={350}
+                    height={350}
+                    alt="171x180"
+                    src={logo}
+                />
+            </Figure>
+        </div>    
     )
 }
 

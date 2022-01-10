@@ -1,7 +1,18 @@
-
 .App {
   align-items: center;
   color: darkgray;
+}
+
+.heading{
+  /* font-size: larger; */
+  text-align: center;
+  font-weight: normal;
+}
+
+/* corosule Part */
+.slider{
+  padding: 1rem;
+  width: 90%;
 }
 
 .header{
@@ -16,9 +27,9 @@
 
 .navigation{
   margin: auto;
-  padding: 1rem;
-  border-top: 1px solid darkgrey;
-  border-bottom: 1px solid darkgray;
+  padding: 3rem;
+  /* border-top: 1px solid darkgrey;
+  border-bottom: 1px solid darkgray; */
   position: sticky;
   top: 0;
 }
@@ -32,8 +43,8 @@
   display: inline-block;
   padding: 0rem 2rem;
   text-decoration: none;
-  list-style: none;
-  font-size: 20px;
+  /* list-style: none; */
+  font-size: 30px;
   text-align: center;
 }
 
@@ -57,8 +68,8 @@
 
 /* Services Part */
 .details{
-  padding: 4rem;
-  border: 1px solid darkgray;
+  padding: 2rem;
+  /* border: 1px solid darkgray; */
 }
 
 .title{
@@ -68,6 +79,14 @@
   height: 350px;
 }
 
+/* Client servies */
+.client-img{
+  margin: 2px;
+  margin-bottom: 0;
+  vertical-align: bottom;
+
+}
+
 /* Footer Part */
 .footer{
   display: block;
@@ -75,22 +94,26 @@
   /* background-color: black; */
   color : darkgray;
   padding: 4rem;
-  margin: 0;
+  /* margin: 0; */
   border-top: 1px solid darkgrey ;
 }
+
+.footer-heading{
+  padding: 2rem;
+}
+
 .cards{
-  max-width: 70%;
   align-items: center;
-  margin: 0;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
   gap: 15px;
 }
-.card{
+.footer-div{
   padding-left: 2rem;
-  margin: 0;
+  border: 0px;
+  
 }
-.list-inline{
+/* .list-inline{
   display: inline;
   text-decoration: none;
-}
+} */
