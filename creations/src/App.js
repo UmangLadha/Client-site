@@ -4,14 +4,14 @@ import logo from "./images/logo.jpg"
 import Slider from "./components/Slider";
 import Services from "./components/Services";
 import Clients from "./components/Clients";
-import About from "./components/About";
+import About from "./components/about";
 import Contact from "./components/contact";
 
 function App() {
     return (
         <div className="app">
             <div>
-                <div className="header"><img className="logo" src={logo} alt="logo" /></div>
+                <div className="header"><img className="nav-brand" src={logo} alt="logo" /></div>
                 <Slider />
                 <nav className="navigation">
                     <ul className="list-non-bullet list">

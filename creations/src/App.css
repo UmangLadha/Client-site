@@ -9,10 +9,11 @@
   font-weight: normal;
 }
 
-/* corosule Part */
+/* Carousel Part */
 .slider{
   padding: 1rem;
-  width: 90%;
+  width:"400";
+  height:"100";
 }
 
 .header{
@@ -20,9 +21,9 @@
   padding-bottom: 2rem;
 }
  
-.logo{
+.nav-brand{
   align-items: center;
-  width: 30%;
+  width: 40%;
 }
 
 .navigation{
@@ -40,12 +41,17 @@
 } */
 
 .list-inline {
-  display: inline-block;
-  padding: 0rem 2rem;
+  display: inline;
+  padding: 0rem 4rem;
   text-decoration: none;
   /* list-style: none; */
   font-size: 30px;
   text-align: center;
+}
+ul{
+  padding-inline-start: 0;
+  padding-left: 0;
+  list-style-type:armenian;
 }
 
 .list-non-bullet {
@@ -57,19 +63,23 @@
   color: darkgray;
 }
 
-.slider{
-  padding: 3rem ;
-  margin: auto;
-}
-.slider-img {
+/* .slider-img {
   align-items: center;
   padding: 2rem;
-}
+} */
 
 /* Services Part */
 .details{
   padding: 2rem;
   /* border: 1px solid darkgray; */
+}
+
+.service-title{
+border:1px solid white; 
+height: 150px;; 
+width: 150px;;
+color: darkgray;
+text-align: center;
 }
 
 .title{
@@ -84,7 +94,13 @@
   margin: 2px;
   margin-bottom: 0;
   vertical-align: bottom;
-
+  transition: .5s;
+  box-shadow:0 0 6px 1px whitesmoke;
+  cursor: pointer;
+}
+.client-img:hover{
+  transform:scale(1.2);
+  z-index: 2;
 }
 
 /* Footer Part */

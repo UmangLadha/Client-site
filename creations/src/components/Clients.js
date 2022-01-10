@@ -1,25 +1,25 @@
 import React from "react";
 import "../App.css";
 import Figure from "react-bootstrap/Figure"
-import img1 from "../images/img1.png";
-// import img2 from "../images/img 2.png";
-import img3 from "../images/img 3.png";
-import img4 from "../images/img 4.png";
-// import img5 from "../images/img 5.png";
-// import img6 from "../images/img 6.png";
-import img7 from "../images/img 7.png";
-import img8 from "../images/img 8.png";
-// import img9 from "../images/img 9.png";
-// import img10 from "../images/img 10.png";
-import img11 from "../images/img 11.png";
-import img12 from "../images/img 12.png";
-import img13 from "../images/img 13.png";
-import img14 from "../images/img 14.png";
-// import img15 from "../images/img 15.png";
-import img16 from "../images/img 16.png";
-import img17 from "../images/img 17.png";
-import img18 from "../images/img 18.png";
-import img19 from "../images/img 19.png";
+import img1 from "../images/Clients imgs/img1.png";
+// import img2 from "../images/Clients imgs/img 2.png";
+import img3 from "../images//Clients imgs/img 3.png";
+import img4 from "../images/Clients imgs/img 4.png";
+// import img5 from "../images/Clients imgs/img 5.png";
+// import img6 from "../images/Clients imgs/img 6.png";
+import img7 from "../images/Clients imgs/img 7.png";
+import img8 from "../images/Clients imgs/img 8.png";
+// import img9 from "../images/Clients imgs/img 9.png";
+// import img10 from "../images/Clients imgs/img 10.png";
+import img11 from "../images/Clients imgs/img 11.png";
+import img12 from "../images/Clients imgs/img 12.png";
+import img13 from "../images/Clients imgs/img 13.png";
+import img14 from "../images/Clients imgs/img 14.png";
+// import img15 from "../images/Clients imgs/img 15.png";
+import img16 from "../images/Clients imgs/img 16.png";
+import img17 from "../images/Clients imgs/img 17.png";
+import img18 from "../images/Clients imgs/img 18.png";
+import img19 from "../images/Clients imgs/img 19.png";
 
 
 
