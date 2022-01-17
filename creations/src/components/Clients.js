@@ -22,145 +22,44 @@ import img18 from "../images/Clients imgs/img 18.png";
 import img19 from "../images/Clients imgs/img 19.png";
 
 
+function ClientImage({image}) {
+    return (
+        <Figure.Image 
+            className="client-img"
+            width={200}
+            height={200}
+            alt="200*200"
+            src={image}
+        />
+    )
+}
+
+
 
 function clients() {
     return (
         <div id="#Cleint-part">
             <h1 className="heading">CLIENTS</h1>
             <Figure className='details'>
-                <Figure.Image 
-                    className="client-img"
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img1}
-                />
-                {/* <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img2}
-                /> */}
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img3}
-                />
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img4}
-                />
-                {/* <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img5}
-                />            
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img6}
-                />             */}
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img7}
-                />            
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img8}
-                />            
-                {/* <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img9}
-                />            */}
-                {/* <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img10}
-                />            */}
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img11}
-                />           
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img12}
-                />           
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img13}
-                />           
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img14}
-                />            
-                {/* <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img15}
-                />             */}
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img16}
-                />            
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img17}
-                />            
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img18}
-                />            
-                <Figure.Image 
-                    className="client-img"    
-                    width={200}
-                    height={200}
-                    alt="200*200"
-                    src={img19}
-                />
+                <ClientImage image={img1}/>
+                {/* <ClientImage image={img2}/> */}
+                <ClientImage image={img3}/>
+                <ClientImage image={img4}/>
+                {/* <ClientImage image={img5}/>
+                <ClientImage image={img6}/> */}
+                <ClientImage image={img7}/>
+                <ClientImage image={img8}/>
+                {/* <ClientImage image={img9}/>
+                <ClientImage image={img10}/> */}
+                <ClientImage image={img11}/>
+                <ClientImage image={img12}/>
+                <ClientImage image={img13}/>
+                <ClientImage image={img14}/>
+                {/* <ClientImage image={img15}/> */}
+                <ClientImage image={img16}/>
+                <ClientImage image={img17}/>
+                <ClientImage image={img18}/>
+                <ClientImage image={img19}/>
             </Figure>                
 
         </div>
