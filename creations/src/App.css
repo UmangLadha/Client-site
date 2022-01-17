@@ -1,6 +1,6 @@
 .App {
   align-items: center;
-  color: darkgray;
+  color:#FAC812ff;
 }
 
 .heading{
@@ -30,7 +30,7 @@
   margin: auto;
   padding: 3rem;
   /* border-top: 1px solid darkgrey;
-  border-bottom: 1px solid darkgray; */
+  border-bottom: 1px solid #FAC812ff; */
   position: sticky;
   top: 0;
 }
@@ -60,7 +60,7 @@ ul{
 
 .toplink{
   text-decoration: none;
-  color: darkgray;
+  color: #FAC812ff;
 }
 
 /* .slider-img {
@@ -71,14 +71,14 @@ ul{
 /* Services Part */
 .details{
   padding: 2rem;
-  /* border: 1px solid darkgray; */
+  /* border: 1px solid #FAC812ff; */
 }
 
 .service-title{
 border:1px solid white; 
 height: 150px;; 
 width: 150px;;
-color: darkgray;
+color: #FAC812ff;
 text-align: center;
 }
 
@@ -108,7 +108,7 @@ text-align: center;
   display: block;
   font-size: large;
   /* background-color: black; */
-  color : darkgray;
+  color : #FAC812ff;
   padding: 4rem;
   /* margin: 0; */
   border-top: 1px solid darkgrey ;

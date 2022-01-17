@@ -34,8 +34,6 @@ function ClientImage({image}) {
     )
 }
 
-
-
 function clients() {
     return (
         <div id="#Cleint-part">

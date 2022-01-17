@@ -1,3 +1,5 @@
+// import React, { Component } from "react";
+// import { BsInstagram } from "react-icons/Bs";
 import React from "react";
 import "../App.css";
 
@@ -14,7 +16,7 @@ function Contact() {
                         <p>Tel: 7597226305</p>
                         <p>Email: umangladha02@gmail.com</p>
                         <ul className="list-non-bullet" >
-                            <li className="list-inline"><a className="toplinks" href="http//:#"><i className="fa fa instagram">I</i></a></li>
+                            <li className="list-inline"><a className="toplinks" href="http//:#">I</a></li>
                             <li className="list-inline"><a className="toplinks" href="http//:#"><i className="fa fa facebook">F</i></a></li>
                             <li className="list-inline"><a className="toplinks" href="http//:#"><i className="fa fa gmail">G</i></a></li>
                         </ul>
