@@ -22,14 +22,17 @@ import img18 from "../images/Clients imgs/img 18.png";
 import img19 from "../images/Clients imgs/img 19.png";
 
 
-function ClientImage({image}) {
+function ClientImage(props) {
+    // const { image } = props;
+    const images = props.image;
+
     return (
         <Figure.Image 
             className="client-img"
             width={200}
             height={200}
             alt="200*200"
-            src={image}
+            src={images}
         />
     )
 }
