@@ -10,83 +10,38 @@
 }
 
 /* Carousel Part */
+
 .slider{
   padding: 1rem;
   width:"400";
   height:"100";
 }
 
+/* Branding part */
+
 .header{
   text-align: center;
   padding-bottom: 2rem;
 }
  
-.nav-brand{
-  align-items: center;
+.brand{
+  /* align-items: center; */
   width: 40%;
 }
 
-.navigation{
-  margin: auto;
-  padding: 3rem;
-  /* border-top: 1px solid darkgrey;
-  border-bottom: 1px solid #FAC812ff; */
-  position: sticky;
-  top: 0;
-}
+/* Navbar part */
 
-/* .nav-brand{
- width: 20%;
- height: 10%;
-} */
-
-.list-inline {
-  display: inline;
-  padding: 0rem 4rem;
-  text-decoration: none;
-  /* list-style: none; */
-  font-size: 30px;
-  text-align: center;
-}
-ul{
-  padding-inline-start: 0;
-  padding-left: 0;
-  list-style-type:armenian;
-}
-
-.list-non-bullet {
-  text-align: center;
-}
-
-.toplink{
-  text-decoration: none;
-  color: #FAC812ff;
-}
-
-/* .slider-img {
-  align-items: center;
-  padding: 2rem;
-} */
 
 /* Services Part */
-.details{
-  padding: 2rem;
-  /* border: 1px solid #FAC812ff; */
+
+.service-cards{
+  display: grid;
 }
 
 .service-title{
-border:1px solid white; 
-height: 150px;; 
-width: 150px;;
-color: #FAC812ff;
-text-align: center;
-}
-
-.title{
-  font-size: larger;
-  padding: 1rem;
-  width: 350px;
-  height: 350px;
+  background-color: gray; 
+  border-radius: 1rem;
+  color: #FAC812ff;
 }
 
 /* Client servies */
@@ -107,11 +62,10 @@ text-align: center;
 .footer{
   display: block;
   font-size: large;
-  /* background-color: black; */
   color : #FAC812ff;
   padding: 4rem;
   /* margin: 0; */
-  border-top: 1px solid darkgrey ;
+  /* border-top: 1px solid darkgrey ; */
 }
 
 .footer-heading{
@@ -129,7 +83,9 @@ text-align: center;
   border: 0px;
   
 }
-/* .list-inline{
-  display: inline;
+.list-inline{
+  display: inline-block;
+  padding: 2rem;
+  align-items: center;
   text-decoration: none;
-} */
+}

@@ -11,7 +11,7 @@ import Navbar from "./components/navbar";
 function App() {
     return (
         <div className="app">
-            <div className="header"><img className="nav-brand" src={logo} alt="logo" /></div>
+            <div className="header"><img className="brand" src={logo} alt="logo" /></div>
             <Slider /> 
             <Navbar />
             <Services />

@@ -5,13 +5,17 @@ import "../App.css";
 
 
 function services() {
-    return (
-        <div  id="#Service-part">
-            <h1 className="heading">SERVICES</h1>
-            <div className="service-cards">           
-                <div className="service-title"><h2 className="heading">Creations</h2></div>
-            </div>   
-
+    return (             
+        <div  id="#Service-part">             
+            <h1 className="heading">SERVICES</h1>             
+            <div className="service-cards">                        
+                <div className="service-title"><h2 className="heading"> Creative branding </h2></div>                          
+                <div className="service-title"><h2 className="heading"> Logo design</h2></div> 
+                <div className="service-title"><h2 className="heading"> Neon sign </h2></div>  
+                <div className="service-title"><h2 className="heading"> LED letter borad</h2></div> 
+                <div className="service-title"><h2 className="heading"> Vinyl stickers</h2></div> 
+                <div className="service-title"><h2 className="heading"> Glow sign board</h2></div>
+            </div>                
 
             {/* <Figure className='details'>
                 <Figure.Image
