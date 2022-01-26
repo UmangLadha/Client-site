@@ -25,7 +25,7 @@ import img19 from "../images/Clients imgs/img 19.png";
 function ClientImage(props) {
     // const { image } = props;
     const images = props.image;
-
+    // hi
     return (
         <Figure.Image 
             className="client-img"
