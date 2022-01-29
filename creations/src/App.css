@@ -1,20 +1,39 @@
+:root{
+  --creation-yellow:#FAC812ff;
+  --creation-black:#050505ff;
+}
+.app-body{
+  background-color: var(--creation-black);
+  max-width: 80%;
+  width: 100%;
+  margin: 0px auto;
+}
+
 .App {
   align-items: center;
-  color:#FAC812ff;
+  color:var(--creation-yellow);
+}
+
+h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .heading{
-  /* font-size: larger; */
+  color:var(--creation-yellow);
   text-align: center;
-  font-weight: normal;
+  font-weight:bolder !important;
+  padding: 2rem;
 }
 
 /* Carousel Part */
 
 .slider{
-  padding: 1rem;
-  width:"400";
-  height:"100";
+  padding: 1rem 5rem 2rem 5rem;
 }
 
 /* Branding part */
@@ -26,46 +45,82 @@
  
 .brand{
   /* align-items: center; */
-  width: 40%;
+  width: 50%;
 }
 
 /* Navbar part */
 
+.navigation{
+  color: var(--creation-yellow);
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.list-non-bullet{
+  text-align: center;
+  list-style: none;
+  padding-inline-start: 0px;
+  margin: 0.6rem 1rem;
+}
+
+.list-item-inline{
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation .link{
+  color: var(--creation-yellow);
+  font-size:2rem;
+}
+
+.link{
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
 
 /* Services Part */
 
 .service-cards{
   display: grid;
+  grid-template-columns: 30% 30%;
+}
+ 
+.title{
+  color: var(--creation-yellow);
+  background-color: gray;
+  padding: 1rem;
 }
 
-.service-title{
-  background-color: gray; 
-  border-radius: 1rem;
-  color: #FAC812ff;
+.title-img{
+  
 }
 
 /* Client servies */
 .client-img{
   margin: 2px;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+  height: none !important;
   vertical-align: bottom;
   transition: .5s;
   box-shadow:0 0 6px 1px whitesmoke;
   cursor: pointer;
 }
+
 .client-img:hover{
   transform:scale(1.2);
   z-index: 2;
 }
 
 /* Footer Part */
+
 .footer{
   display: block;
   font-size: large;
-  color : #FAC812ff;
+  color : var(--creation-yellow);
   padding: 4rem;
-  /* margin: 0; */
-  /* border-top: 1px solid darkgrey ; */
 }
 
 .footer-heading{
@@ -74,7 +129,7 @@
 
 .cards{
   align-items: center;
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
   gap: 15px;
 }
@@ -86,6 +141,4 @@
 .list-inline{
   display: inline-block;
   padding: 2rem;
-  align-items: center;
-  text-decoration: none;
 }

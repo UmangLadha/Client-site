@@ -1,48 +1,36 @@
 import React from "react";
 import "../App.css";
 // import Figure from "react-bootstrap/Figure";
-// import logo from "../images/logo.jpg";
+import logo from "../images/logo.jpg";
+
+
+function Secondservices({title,image}) {
+      
+    return <div>
+        <div className='title'><h1>{title}</h1></div>
+        <div className="title-img"><img src={image} alt="" width="30%"/></div>
+    </div>;
+}
 
 
 function services() {
     return (             
-        <div  id="#Service-part">             
+        <div id="#Service-part">             
             <h1 className="heading">SERVICES</h1>             
-            <div className="service-cards">                        
-                <div className="service-title"><h2 className="heading"> Creative branding </h2></div>                          
-                <div className="service-title"><h2 className="heading"> Logo design</h2></div> 
-                <div className="service-title"><h2 className="heading"> Neon sign </h2></div>  
-                <div className="service-title"><h2 className="heading"> LED letter borad</h2></div> 
-                <div className="service-title"><h2 className="heading"> Vinyl stickers</h2></div> 
-                <div className="service-title"><h2 className="heading"> Glow sign board</h2></div>
+            <div className="service-cards">
+                <Secondservices title="Creative Branding" /> 
+                <Secondservices image={logo} /> 
+                <Secondservices title="Logo Design" />
+                <Secondservices image={logo} />   
+                <Secondservices title="Neon Sign" />  
+                <Secondservices image={logo} /> 
+                <Secondservices title="LED Letter Board" />  
+                <Secondservices image={logo} /> 
+                <Secondservices title="Vinyl Stickers" />  
+                <Secondservices image={logo} /> 
+                <Secondservices title="Glow Sign Board" /> 
+                <Secondservices image={logo} />  
             </div>                
-
-            {/* <Figure className='details'>
-                <Figure.Image
-                    width={350}
-                    height={350}
-                    alt="200x200"
-                    src={logo}
-                />
-                <Figure.Image
-                    width={350}
-                    height={350}
-                    alt="171x180"
-                    src={logo}
-                />
-                <Figure.Image
-                    width={350}
-                    height={350}
-                    alt="171x180"
-                    src={logo}
-                />
-                <Figure.Image
-                    width={350}
-                    height={350}
-                    alt="171x180"
-                    src={logo}
-                />
-            </Figure> */}
         </div>    
     )
 }
