@@ -23,15 +23,13 @@ import img19 from "../images/Clients imgs/img 19.png";
 
 
 function ClientImage(props) {
-    // const { image } = props;
     const images = props.image;
-    // hi
     return (
         <Figure.Image 
             className="client-img"
-            width={200}
-            height={200}
-            alt="200*200"
+            width={250}
+            height={250}
+            alt="250*250"
             src={images}
         />
     )
@@ -62,7 +60,6 @@ function clients() {
                 <ClientImage image={img18}/>
                 <ClientImage image={img19}/>
             </Figure>                
-
         </div>
     )
 }
