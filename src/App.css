@@ -4,6 +4,7 @@
 }
 .app-body{
   background-color: var(--creation-black);
+  max-width: 80%;
   width: 100%;
   margin: 0px auto;
 }
