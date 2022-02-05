@@ -4,35 +4,25 @@ import "../App.css";
 
 function Navname({title}) {
     return (
-        <li className="list-inline"><a className="toplink" href="#Service-part"> {title} </a></li>
+        <li className="list-item-inline"><a className="link link-active" href="#Service-part"> {title} </a></li>
     )
 }
 
 function navbar() {
     return (
-        <div>
-            <nav className="navigation">
-                {/* <a href="/#" target="_blank" className=".nav-brand" ><img src={logo} alt="nav-brand" /></a> */}
-                <ul className="list-non-bullet list">
-                    <Navname title="SERVICES" />
-                    <Navname title="CLIENTS" />
-                    <Navname title="REVIEWS" />
-                    <Navname title="GALLERY" />
-                    <Navname title="ABOUT US" />
-                    <Navname title="CONTACT" />
-                </ul>
-            </nav>
-            {/* {
-                window.addEventListener("scroll",function(){
-                    var header = document.querySelector("header");
-                    header.classList.toggle("sticky", window.scrollY > 0);
-                })
-            } */}
-            {/* <section className="Banner"></section> */}
-        </div>
+        <nav className="navigation">
+            {/* <a href="/#" target="_blank" className=".nav-brand" ><img src={logo} alt="nav-brand" /></a> */}
+            <ul className="list-non-bullet">
+                <Navname title="SERVICES" />
+                <Navname title="CLIENTS" />
+                <Navname title="REVIEWS" />
+                <Navname title="GALLERY" />
+                <Navname title="ABOUT US" />
+                <Navname title="CONTACT" />
+            </ul>
+        </nav>
     )   
 }
-
-export default navbar
+export default navbar;
 
 
