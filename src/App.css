@@ -1,7 +1,9 @@
 :root{
   --creation-yellow:#FAC812ff;
   --creation-black:#050505ff;
+  --dark-gray:gray;
 }
+
 .app-body{
   background-color: var(--creation-black);
   max-width: 80%;
@@ -93,12 +95,12 @@ h1{
 
 .title{
   color: var(--creation-yellow);
-  background-color: gray;
+  background-color: var(--dark-gray);
   padding: 1rem;
 }
 
 .service-title{
-  background-color: gray; 
+  background-color: var(--dark-gray); 
   border-radius: 1rem;
   color: var(--creation-yellow);
 }
